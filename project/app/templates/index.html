@@ -1,0 +1,14 @@
+
+{% if key1 %}
+{{key1.name}}<br />
+{{key1.age}}<br />
+{{key1.quali}}<br />
+<hr />
+{% comment %} {% endif %} {% endcomment %}
+{% elif key2 %}
+{{key2.name}}<br />
+{{key2.age}}<br />
+{{key2.quali}}<br />
+{% else %}
+<h1>Welcome to home page</h1>
+{% endif %}
